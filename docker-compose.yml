@@ -1,0 +1,7 @@
+version: '3'
+services:
+  java-docker:
+    image: tagsvn/java-docker:latest
+    container_name: my-java-docker
+    ports:
+      - "8080:8080"
